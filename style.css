@@ -1,0 +1,39 @@
+html{
+    background-color: rgb(19, 15, 15);
+}
+
+header h1{
+    color: rgb(219, 189, 123);
+}
+
+header h2{
+    color: rgb(175, 94, 103);
+}
+
+header nav{
+    color: rgb(175, 94, 103);
+}
+
+header div{
+    color: rgb(175, 94, 103);
+}
+
+.work h3{
+    color: rgb(219, 189, 123);
+}
+
+.work h4{
+    color: rgb(175, 94, 103)
+}
+
+.me h3{
+    color: rgb(219, 189, 123);
+}
+
+.me div{
+    color: rgb(175, 94, 103);
+}
+
+img{
+    max-width: 30%;
+}
