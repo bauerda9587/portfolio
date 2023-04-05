@@ -23,7 +23,7 @@ header div{
     font-size: small;
 }
 
-.work h3{
+main h3{
     color: rgb(219, 189, 123);
 }
 
@@ -101,7 +101,84 @@ h3{
 
 .work img{
     max-width: 30%;
-    align-items: center;
+    border: 0.05rem solid rgb(175, 94, 103);
 }
+
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+a:link{
+    color:rgb(175, 94, 103);
+}
+
+a:visited{
+    color: rgb(219, 189, 123);
+}
+
+.me img{
+    border: 0.05rem solid rgb(175, 94, 103);
+    max-width: 60%;
+    
+}
+
+@media (min-width:1700px){
+
+    .heading{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        align-items: flex-start;
+        justify-content: left;
+        text-align: left;
+        
+    }
+
+    header{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 3rem;
+        position: fixed;
+    }
+
+    main h3{
+        text-align: right;
+        margin-right: 5rem;
+    }
+
+    .work img{
+        max-width: 28%;
+        border: 0.05rem solid rgb(175, 94, 103);
+    
+    }
+    
+    .work{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: center;
+        gap: 1rem;
+        margin-right: 5rem;
+        margin-top: 11rem;
+    }
+
+    .me{
+    display: inline-block;
+    text-align: left;
+    background-color:rgb(19, 15, 15);
+    padding: 0rem 5rem;
+    margin: 3rem;
+    color: rgb(219, 189, 123); 
+    }
+}
+
+
 
 
