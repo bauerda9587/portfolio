@@ -1,5 +1,6 @@
 html{
     background-color: rgb(19, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1{
@@ -16,6 +17,10 @@ header nav{
 
 header div{
     color: rgb(175, 94, 103);
+    font-weight: 600;
+    margin-top: -0.45rem;
+    margin-bottom: -0.45rem;
+    font-size: small;
 }
 
 .work h3{
@@ -34,6 +39,69 @@ header div{
     color: rgb(175, 94, 103);
 }
 
-img{
-    max-width: 30%;
+header img{
+    max-width: 12.5rem;
+    margin-top: -3.5rem;
+    margin-left: -1.5rem;
 }
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: flex-end;
+    justify-content: right;
+    text-align: right;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.block{
+    display: inline-block;
+    background-color: rgb(219, 189, 123);
+    color: rgb(219, 189, 123);
+    font-size: xx-small;
+}
+
+.drew{
+    color: rgb(219, 189, 123);
+    font-size: large;
+    font-weight: 800;
+    margin-top: -0.15rem;
+    margin-bottom: -0.15rem;
+}
+
+.gd{
+    color: rgb(175, 94, 103);
+    font-weight: 600;
+    margin-top: 0.75rem;
+    margin-bottom: 0.15rem;
+    font-size: medium;
+}
+
+nav{
+    text-decoration: none;
+    color: rgb(175, 94, 103);
+    font-weight: 600;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+    font-size: small;
+}
+
+
+
+h3{
+    font-weight: 700;
+}
+
+.work img{
+    max-width: 30%;
+    align-items: center;
+}
+
+
